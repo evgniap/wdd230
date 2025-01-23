@@ -63,9 +63,16 @@ img {
     margin-top: 35px;
     border-radius: 80%;
     background-position: 0%;
+    position: relative;
+    padding: 1rem 2rem;
+
 }
 
-
+.align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 /* grid code */
 
@@ -90,7 +97,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: #6C4327;
+    color: white;
 }
 
 nav ul {
