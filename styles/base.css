@@ -141,3 +141,7 @@ p {
     color: var(--background-color);
 
 }
+
+.map {
+    grid-column: 1/3;
+}
