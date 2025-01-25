@@ -1,4 +1,9 @@
-@media (min-width: 600px) {
+@media only screen and (min-width: 60em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2%;
+    }
+
     nav ul {
         display: flex;
     }
@@ -9,5 +14,15 @@
 
     #menu {
         display: none;
+    }
+
+
+    main section:nth-child(1) {
+        display: block;
+        grid-column: span 1;
+    }
+
+    main section:nth-child(2) {
+        grid-column: span 2;
     }
 }

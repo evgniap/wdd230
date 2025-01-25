@@ -1,0 +1,79 @@
+.lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #2e282a;
+    --secondary-color: #edb88b;
+    --accent1-color: #cd5334;
+    --accent2-color: #17bebb;
+    --background-color: #fad8d6;
+    --heading-font: 'Bebas Neue', serif;
+    --paragraph-font: 'Lato', serif;
+
+}
+
+h2,
+h3,
+h4 {
+    font-family: var(--heading-font);
+    font-size: x-large;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    font-size: xx-large;
+}
+
+body {
+    background-color: var(--accent2-color);
+}
+
+section {
+    background-color: var(--background-color);
+    border: #2e282a 2px solid;
+    font-family: var(--paragraph-font);
+    text-align: justify;
+    padding: 1rem;
+}
+
+section h3 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+img {
+    width: 50%;
+
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    border: #2e282a 2px solid;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3%;
+}
