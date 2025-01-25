@@ -1,0 +1,81 @@
+.lobster-regular {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-sans-wancho-regular {
+    font-family: "Noto Sans Wancho", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --heading-font: 'Lobster', Lobster;
+    --paragraph-font: 'Noto Sans Wancho', serif;
+
+}
+
+header {
+    background-color: #ebe1ef;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #025393;
+    font-family: var(--heading-font);
+
+}
+
+body {
+    background-color: #ebfcff;
+    font-family: var(--paragraph-font);
+}
+
+/* Phone view */
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.9rem;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+    background-color: #eee;
+}
+
+main section h2 {
+    font-family: var(--heading-font);
+    color: #025393;
+    padding: 0.1rem;
+    background-color: #ebe1ef;
+    border: solid 2px #025393;
+}
+
+
+main section img {
+    width: 50%;
+    height: 50%;
+
+}
+
+main section p {
+    display: block;
+    text-align: justify;
+    font-size: 0.7rem;
+}
+
+footer {
+    font-family: var(--heading-font);
+    color: #025393;
+    background-color: #ebe1ef;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: .8rem;
+}

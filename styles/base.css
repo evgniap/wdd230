@@ -152,6 +152,24 @@ p {
     content: "☰";
 }
 
-#menu.open::before {
+
+
+.open li {
+    display: block;
+    width: 100%
+}
+
+.open li a {
+    display: block;
+
+}
+
+#menu::before {
     content: "😸";
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    font-size: 30px;
 }
