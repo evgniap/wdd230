@@ -84,8 +84,9 @@ img {
 /* grid code */
 
 header {
-    grid-column: 1/3;
+
     background-color: var(--background-color);
+
 }
 
 
